@@ -5,17 +5,23 @@
 <hr>
 
 ## Results of JMeter Test Plan & Profiling
-
+### 1. Before Optimizing
 *highest_gpa*
 ![img.png](img.png)
 
 *all-student_name*
 ![jmeter table all-student_name.jpg](photos%2Fjmeter%20table%20all-student_name.jpg)
-### 1. Before Optimizing
+
 ![before optimized.jpg](photos%2Fbefore%20optimized.jpg)
 
 
 ### 2. After Optimizing
+*highest_gpa*
+![after optimized highest gpa.png](photos%2Fafter%20optimized%20highest%20gpa.png)
+
+*all-student_name*
+![after optimized all students.png](photos%2Fafter%20optimized%20all%20students.png)
+
 ![after optimized.jpg](photos%2Fafter%20optimized.jpg)
 
 
@@ -23,8 +29,9 @@
 Setelah mengoptimisasi kode pada commit *[Refactoring]*, saya melakukan uji performa lagi menggunakan JMeter dan Profiling Intellij
 Terdapat peningkatan sebagai berikut
 
-Pada awalnya untuk run program dibutuhkan 4.563s menjadi 4.073s setelah optimized.
+Pada awalnya untuk run test highest gpa dibutuhkan rata-rata 120ms menjadi rata-rata 80ms setelah optimized.
 
+untuk run test all student name yang awalnya rata-rata 3000ms menjadi rata-rata 300ms.
 Terbukti bahwa optimasi dengan *[Refactoring]* memiliki pengaruh yang signifikan dalam hal waktu eksekusi berdasarkan
 hasil testing pada Intellij Profiler dan JMeter Test Plan.
 
