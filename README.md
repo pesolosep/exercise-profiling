@@ -8,33 +8,25 @@
 ### 1. Before Optimizing
 *highest_gpa*
 ![img.png](img.png)
-
+![img_3.png](img_3.png)
 *all-student_name*
 ![jmeter table all-student_name.jpg](photos%2Fjmeter%20table%20all-student_name.jpg)
 
 ![before optimized.jpg](photos%2Fbefore%20optimized.jpg)
-
+![img_2.png](img_2.png)
 
 ### 2. After Optimizing
 *highest_gpa*
 ![after optimized highest gpa.png](photos%2Fafter%20optimized%20highest%20gpa.png)
-
+![img_5.png](img_5.png)
+![img_7.png](img_7.png)
 *all-student_name*
-![after optimized all students.png](photos%2Fafter%20optimized%20all%20students.png)
-
+![img_1.png](img_1.png)
 ![after optimized.jpg](photos%2Fafter%20optimized.jpg)
-
-
+![img_6.png](img_6.png)
+![img_4.png](img_4.png)
 ### Conclusion
-Setelah mengoptimisasi kode pada commit *[Refactoring]*, saya melakukan uji performa lagi menggunakan JMeter dan Profiling Intellij
-Terdapat peningkatan sebagai berikut
-
-Pada awalnya untuk run test highest gpa dibutuhkan rata-rata 120ms menjadi rata-rata 80ms setelah optimized.
-
-untuk run test all student name yang awalnya rata-rata 3000ms menjadi rata-rata 300ms.
-Terbukti bahwa optimasi dengan *[Refactoring]* memiliki pengaruh yang signifikan dalam hal waktu eksekusi berdasarkan
-hasil testing pada Intellij Profiler dan JMeter Test Plan.
-
+Setelah Optimisasi kode, pada ketiga endpoint terdapat penurunan execution time yang cukup signifikan. Hal ini dapat dilihat baik pada hasil uji JMeter maupun hasil uji Profiling Intellij.
 ## REFLECTION
 
 **1. What is the difference between the approach of performance testing with JMeter and profiling with IntelliJ Profiler in the context of optimizing application performance?**
